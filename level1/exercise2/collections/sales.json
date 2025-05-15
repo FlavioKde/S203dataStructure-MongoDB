@@ -1,0 +1,12 @@
+[
+    {
+      "_id": { "$oid": "665b3a5a8c7d4e3f5e6b2a31" },
+      "glasses_id": { "$oid": "665b2f4b8c7d4e3f5e6b2a2a" },
+      "customer_id": { "$oid": "665a1f3b8c7d4e3f5e6b2a1f" },
+      "employee_id": { "$oid": "665b4c6d8c7d4e3f5e6b2a4e" },
+      "sale_date": { "$date": "2024-05-21T12:30:00Z" },
+      "quantity": 1,
+      "total_price": 105.75,
+      "currency": "EUR"
+    }
+  ]

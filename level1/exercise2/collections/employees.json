@@ -1,0 +1,9 @@
+[
+    {
+      "_id": { "$oid": "665b4c6d8c7d4e3f5e6b2a4e" },
+      "name": "Carlos Ruiz",
+      "email": "carlos@tienda.com",
+      "role": "seller",
+      "telephone": "+34987654321"
+    }
+  ]

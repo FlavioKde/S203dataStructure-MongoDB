@@ -1,0 +1,9 @@
+{
+  "_id": { "$oid": "611b63b4a0a15fdeb46fb960" },
+  "user_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+  "name": "Real Haiti",
+  "description": "Real life of the people of Haiti.",
+  "creation_date": { "$date": "2017-08-01T00:00:00Z" },
+  "subscribers_count": 1,
+  "videos": [{ "$oid": "611b635450a65fdeb46fb969" }]
+}

@@ -1,0 +1,32 @@
+{
+  "video_id": { "$oid": "611b635450a65fdeb46fb969" },
+  "users_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+  "_id": { "$oid": "5f8dccebe6b1160c745f3a8f" },
+  "text":"I like this guy, master barbecue",
+  "date_time": { "$date": "2022-05-12T08:00:00Z" },
+  "comments_reactions":[{
+        "users_id": { "$oid": "5f8d8c9b8e7b2a30c745f3e8" },
+        "reaction_date":{ "$date": "2022-05-12T08:00:00Z" },
+        "reaction":{
+            "like": true,
+            "dislike": false
+        }
+},
+{
+        "users_id": { "$oid": "e8d8c9b4e9b2a30c745f3e8a" },
+        "reaction_date":"2022-06-14",
+        "reaction":{
+            "like": false,
+            "dislike": true
+        }
+},
+{
+        "users_id": { "$oid": "f8d3c9b8e7b2a30c745f3e8b" },
+        "reaction_date":"2022-07-19",
+        "reaction":{
+            "like": true,
+            "dislike": false
+        }
+}
+  ]
+}

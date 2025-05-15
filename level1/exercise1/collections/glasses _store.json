@@ -1,0 +1,119 @@
+{
+  "customers": [
+    {
+    "_id": {"$oid": "681f82428581c7282ae0c1b3"},
+    "name": "Carlos López",
+    "address": {
+    "street": "C/ Aragón",
+    "zip_code": "08010",
+    "city": "Barcelona",
+    "country": "España"
+    },
+    "telephone": "612345678",
+    "email": "carlos@mail.com",
+    "date_register": {
+    "$date": "2024-05-21T00:00:00.000Z"
+    },
+    "referred_by": null
+},
+    {
+      "_id": {"$oid": "681f83bb8581c7282ae0c1b4"},
+      "name": "Pedro Gómez",
+      "email": "pedro@mail.com",
+      "telephone": "612789345",
+      "address": {
+        "street": "Av. Diagonal",
+        "zip_code": "08029",
+        "city": "Barcelona",
+        "country": "España"
+      },
+      "date_register": {
+      "$date": "2024-05-22T00:00:00.000Z"
+      },
+      "referred_by": {
+      "$oid": "681f2edb1e6bff80f7973759"
+    }
+    }
+  ],
+  "employees": [
+    {
+  "_id": {"$oid": "681fc9e48581c7282ae0c1b7"},
+  "name": "Joan Marx",
+  "email": "joan@tienda.com",
+  "role": "seller",
+  "telephone": "654123456"
+}
+  ],
+  "suppliers": [
+    {
+  "_id": {
+    "$oid": "681f87938581c7282ae0c1b5"
+  },
+  "name": "Óptica Visión",
+  "address": {
+    "street": "Av. Diagonal",
+    "number": "237",
+    "floor": "5",
+    "door": "3",
+    "zip_code": "08029",
+    "city": "Barcelona",
+    "country": "España"
+  },
+  "telephone": "934567890",
+  "fax": "934567891",
+  "NIF": "B12345678"
+}
+  ],
+  "glasses": [
+    {
+      "_id": { "$oid": "681f89bd8581c7282ae0c1b6" },
+      "brand": "RayBan Aviator",
+      "frame": {
+        "type": "metallic",
+        "color": "black"
+      },
+      "lens": {
+        "graduation": {
+          "left": -2.0,
+          "right": -1.5
+        },
+        "colors": ["blue", "green"]
+      },
+      "price": 120.50,
+      "supplier_id": { "$oid": "681f87938581c7282ae0c1b5" },
+      "stock": 10
+    }
+  ],
+  "sales": [
+    {
+  "_id": {
+    "$oid": "681fcd118581c7282ae0c1b8" },
+    "glasses_id": {"$oid": "681f89bd8581c7282ae0c1b6"},
+    "employee_id": {"$oid": "681fc9e48581c7282ae0c1b7"},
+    "sale_date": {"$date": "2025-05-10T15:30:00.000Z"},
+  "quantity": 2,
+  "total_price": 199.99,
+  "customer_id": {"$oid": "681f83bb8581c7282ae0c1b4"}
+},
+{
+  "_id": {"$oid": "681fcd118581c7282ae0c1b9"},
+  "glasses_id": {"$oid": "681f89bd8581c7282ae0c1b6"},
+  "employee_id": {"$oid": "681fc9e48581c7282ae0c1b7"},
+  "sale_date": {"$date": "2025-05-09T18:15:00.000Z"},
+  "quantity": 1,
+  "total_price": 99.99,
+  "customer_id": {"$oid": "681f83bb8581c7282ae0c1b4"}
+},
+{
+
+  "_id": {"$oid": "681fcd118581c7282ae0c1ba"},
+  "glasses_id": {"$oid": "681f89bd8581c7282ae0c1b6"},
+  "employee_id": {"$oid": "681fc9e48581c7282ae0c1b7"},
+  "sale_date": {"$date": "2025-05-08T12:45:00.000Z"},
+  "quantity": 3,
+  "total_price": 299.97,
+  "customer_id": {"$oid": "681f82428581c7282ae0c1b3"}
+}
+
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_id": { "$oid": "5f8d8c7b5e6b2a30c665f3b0" },
+  "name": "Charly",
+  "last_name": "Brown",
+  "NIF": "23456790Z",
+  "telephone": "789123456",
+  "role": "delivery",
+  "store_id": { "$oid": "5f8d8c7b5e6b2a30c665f3a9" },
+  "delivery_orders": [
+    {
+      "order_id": { "$oid": "611b635450a65fdeb46fb969" },
+      "date_time_delivered": { "$date": "2025-08-07T15:00:00Z" }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "_id": { "$oid": "611b635450a65fdeb46fb969" },
+  "users_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+  "title": "Super barbecue ",
+  "description":"Super barbecue on the beach in Haiti with no gunmen around. ",
+  "size": "1.9G" ,
+  "file_name": "coconut.mp4",
+  "duration": 345.8,
+  "thumbnail": "thumbnail1.png", 
+  "views": 1234,
+  "likes": 23,
+  "dislikes":1,
+  "reproductions":12345,
+  "video_state":{
+        "private": false,
+        "public": true,
+        "hidden": false    
+  },
+  "tag":[
+    "beach",
+    "coconut tree",
+    "great day",
+    "I laugh at life"
+  ],
+  "upload_date": { "$date": "2022-05-10T00:00:00Z" },
+  "comments": [{ "$oid": "5f8d8c9b8e7b2a30c745f3e8" }]
+      
+}
