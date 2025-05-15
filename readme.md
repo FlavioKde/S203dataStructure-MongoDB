@@ -1,7 +1,6 @@
 markdown
 # 🗃️ MongoDB Database Structures
 
-![Database Diagrams Overview](diagrams/all_diagrams.png)
 
 ## 📄 Description - Exercise Statement
 
@@ -38,28 +37,20 @@ Import JSON files to MongoDB:
 
 bash
 mongoimport --db database_name --collection collection_name --file path/to/file.json --jsonArray
+
 📂 Repository Structure
-mongoDB-estructura/
-├── optical_shop/          # Optical shop database files
-│   ├── customers.json
-│   ├── glasses.json
-│   ├── suppliers.json
-│   └── sales.json
-├── food_delivery/         # Food delivery system files
-│   ├── customers.json
-│   ├── orders.json
-│   ├── products.json
-│   └── stores.json
-├── youtube_clone/         # YouTube clone files
-│   ├── users.json
-│   ├── videos.json
-│   ├── comments.json
-│   └── playlists.json
-└── diagrams/              # Database diagrams (PNG)
-    ├── glasses_store.png    # Optical shop structure
-    ├── glasses.png         # Glasses details schema
-    ├── food_store.png      # Food delivery model
-    └── youtube_reduced.png # YouTube clone schema
+## 🏗️ Database Diagrams
+
+### 👓 Optical Shop System  
+- `diagrams/glasses_store.png` → Complete optical shop database structure  
+- `diagrams/glasses.png` → Glasses specification schema  
+
+### 🍽️ Food Delivery System  
+- `diagrams/food_store.png` → Food delivery service data model  
+
+### ▶️ YouTube Clone  
+- `diagrams/youtube_reduced.png` → Simplified YouTube database schema  
+
 🏗️ Database Diagrams
 👓 Optical Shop System
 Glasses Store Diagram
