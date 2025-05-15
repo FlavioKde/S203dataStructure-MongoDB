@@ -1,0 +1,19 @@
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependencias y configuraciones de editor
+node_modules/
+.env
+*.log
+.vscode/
+
+# Ignorar datos específicos del proyecto
+*.json
+diagrams/*.png
+
+# Ignorar caché y archivos temporales
+tmp/
+cache/
+dist/
+build/
