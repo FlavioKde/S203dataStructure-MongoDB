@@ -1,28 +1,62 @@
 {
-    "_id": { "$oid": "611b635450a65fdeb46fb969" },
-  "users_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
-  "title": "Super barbecue ",
-  "description":"Super barbecue on the beach in Haiti with no gunmen around. ",
-  "size": "1.9G" ,
-  "file_name": "coconut.mp4",
-  "duration": 345.8,
-  "thumbnail": "thumbnail1.png", 
-  "views": 1234,
-  "likes": 23,
-  "dislikes":1,
-  "reproductions":12345,
-  "video_state":{
-        "private": false,
-        "public": true,
-        "hidden": false    
+    "_id": { "$oid": "611b635450a65fdeb46fb969" 
+            },
+  
+    "title": "Super barbecue ",
+    "description":"Super barbecue on the beach in Haiti with no gunmen around. ",
+    "size": "1.9G" ,
+    "file_name": "coconut.mp4",
+    "duration": 345.8,
+    "thumbnail": "thumbnail1.png", 
+    "views": 1234,
+    "likes": 23,
+    "dislikes":1,
+    "status":"public",
+    "author": { 
+               "_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+               "username": "piratinyo32",
+               "avatar": "user_thumbnail.jpg" 
   },
   "tag":[
-    "beach",
-    "coconut tree",
-    "great day",
-    "I laugh at life"
+        "beach",
+        "coconut tree",
+        "great day",
+        "I laugh at life"
   ],
-  "upload_date": { "$date": "2022-05-10T00:00:00Z" },
-  "comments": [{ "$oid": "5f8d8c9b8e7b2a30c745f3e8" }]
-      
+      "comments": [
+        { 
+           "_id": {"$oid": "5f8d8c9b8e7b2a30c745f3e8" },
+           "text":"I like this guy, master barbecue",
+           "user":{ 
+               "_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+               "username": "piratinyo32",
+               "avatar": "user_thumbnail.jpg" 
+  },
+           "date_time": { "$date": "2022-05-12T08:00:00Z" },
+                "comments_reactions":[{
+                                        "users_id": { "$oid": "5f8d8c9b8e7b2a30c745f3e8" },
+                                        "reaction_date":{ "$date": "2022-05-12T08:00:00Z" },
+                                        "type": "like"
+                                        },
+                                      {
+                                        "users_id": { "$oid": "e8d8c9b4e9b2a30c745f3e8a" },
+                                        "reaction_date":{ "$date": "2022-05-12T08:00:00Z" },
+                                        "type":"dislike"
+                                        },
+                                      {
+                                        "users_id": { "$oid": "f8d3c9b8e7b2a30c745f3e8b" },
+                                        "reaction_date":{ "$date": "2022-05-12T08:00:00Z" },
+                                        "type":"like"
+                                      }
+                                    ]
+                                  }
+                    ]
 }
+                          
+                            
+
+          
+
+
+
+      

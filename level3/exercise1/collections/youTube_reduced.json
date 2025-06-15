@@ -1,0 +1,103 @@
+{
+  "videos": [
+    {
+      "_id": { "$oid": "611b635450a65fdeb46fb969" },
+      "title": "Super barbecue",
+      "description": "Super barbecue on the beach in Haiti with no gunmen around.",
+      "size": "1.9G",
+      "file_name": "coconut.mp4",
+      "duration": 345.8,
+      "thumbnail": "thumbnail1.png",
+      "views": 1234,
+      "likes": 23,
+      "dislikes": 1,
+      "status": "public",
+      "author": {
+        "_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+        "username": "piratinyo32",
+        "avatar": "user_thumbnail.jpg"
+      },
+      "tags": [
+        "beach",
+        "coconut tree",
+        "great day",
+        "I laugh at life"
+      ],
+      "comments": [
+        {
+          "_id": { "$oid": "5f8d8c9b8e7b2a30c745f3e8" },
+          "text": "I like this guy, master barbecue",
+          "user": {
+            "_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+            "username": "piratinyo32",
+            "avatar": "user_thumbnail.jpg"
+          },
+          "date_time": { "$date": "2022-05-12T08:00:00Z" },
+          "comments_reactions": [
+            {
+              "users_id": { "$oid": "5f8d8c9b8e7b2a30c745f3e8" },
+              "reaction_date": { "$date": "2022-05-12T08:00:00Z" },
+              "type": "like"
+            },
+            {
+              "users_id": { "$oid": "e8d8c9b4e9b2a30c745f3e8a" },
+              "reaction_date": { "$date": "2022-05-12T08:00:00Z" },
+              "type": "dislike"
+            },
+            {
+              "users_id": { "$oid": "f8d3c9b8e7b2a30c745f3e8b" },
+              "reaction_date": { "$date": "2022-05-12T08:00:00Z" },
+              "type": "like"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "_id": { "$oid": "5f8d8c7b1e6b1a60c845f3a8" },
+      "owner": {
+        "_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+        "username": "piratinyo32",
+        "avatar": "user_thumbnail.jpg"
+      },
+      "name": "Haiti life",
+      "description": "Videos about daily life in Haiti",
+      "state": "public",
+      "created_at": { "$date": "2018-12-11T00:00:00Z" },
+      "videos": [
+        {
+          "_id": { "$oid": "611b635450a65fdeb46fb969" },
+          "title": "Super barbecue",
+          "thumbnail": "thumbnail1.png",
+          "duration": 345.8,
+          "added_at": { "$date": "2018-12-11T00:00:00Z" },
+          "position": 1
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "_id": { "$oid": "611b63b4a0a15fdeb46fb960" },
+      "owner": {
+        "_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+        "username": "piratinyo32",
+        "avatar": "user_thumbnail.jpg"
+      },
+      "name": "Real Haiti",
+      "description": "Real life of the people of Haiti.",
+      "creation_date": { "$date": "2017-08-01T00:00:00Z" },
+      "subscribers": 1,
+      "videos": [
+        {
+          "_id": { "$oid": "611b635450a65fdeb46fb969" },
+          "title": "Super barbecue",
+          "thumbnail": "thumbnail1.png",
+          "published_at": { "$date": "2022-05-10T00:00:00Z" }
+        }
+      ]
+    }
+  ]
+}

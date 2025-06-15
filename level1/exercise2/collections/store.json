@@ -1,0 +1,64 @@
+{
+  "glasses": [
+    {       
+      "_id": { "$oid": "665b2f4b8c7d4e3f5e6b2a2a" },
+      "brand": "Google",
+      "frame": {
+        "type": "metallic",
+        "color": "gold"
+      },
+      "lens": {
+        "graduation": {
+          "left": -1.5,
+          "right": -1.25
+        },
+        "colors": ["green", "blue"]
+      },
+      "price": 105.75,
+      "supplier": {
+        "_id": { "$oid": "507f1f77bcf86cd799439011" },
+        "name": "Googles Associated St.",
+        "tax_id": "B12345678",
+        "address": {
+          "street": "Carrer Ejemplo",
+          "number": "123",
+          "floor": "3",
+          "door": "A",
+          "city": "Barcelona",
+          "zip_code": "08019",
+          "country": "Spain"
+        },
+        "phone": "+34932123456",
+        "fax": "+34932123457"
+      },
+      "sales_history": [
+        {
+          "_id": { "$oid": "665b3a5a8c7d4e3f5e6b2a31" },
+          "sale_date": { "$date": "2024-05-21T00:00:00.000Z" },
+          "employee": {
+            "name": "Carlos Ruiz",
+            "email": "carlos@tienda.com",
+            "role": "seller",
+            "telephone": "+34987654321"
+          },
+          "customer": {
+            "_id": { "$oid": "665a1f3b8c7d4e3f5e6b2a1f" },
+            "identifier_name": "client_1",
+            "name": "Ana López",
+            "email": "ana@example.com",
+            "telephone": "+34600111222",
+            "address": {
+              "street": "Calle Mayor",
+              "number": "10",
+              "city": "Barcelona",
+              "zip_code": "08001",
+              "country": "Spain"
+            },
+            "date_register": { "$date": "2024-01-10T00:00:00Z" },
+            "referred_by": null
+          }
+        }
+      ]
+    }
+  ]
+}

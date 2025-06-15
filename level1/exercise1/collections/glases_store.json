@@ -1,0 +1,92 @@
+{
+  "customers": [
+    {
+      "_id": {"$oid": "681f82428581c7282ae0c1b3"},
+      "name": "Carlos López",
+      "address": {
+        "street": "C/ Aragón",
+        "zip_code": "08010",
+        "city": "Barcelona",
+        "country": "España"
+      },
+      "telephone": "612345678",
+      "email": "carlos@mail.com",
+      "date_register": {"$date": "2024-05-21T00:00:00.000Z"},
+      "referred_by": null,
+      "purchase_history": [
+        {
+          "_id": {"$oid": "681fcd118581c7282ae0c1b9"},
+          "sale_date": {"$date": "2025-05-10T15:30:00.000Z"},
+          "quantity": 2,
+          "total_price": 199.99,
+          "employee": {
+            "name": "Joan Marx",
+            "email": "joan@tienda.com",
+            "role": "seller"
+          },
+          "glasses": {
+            "_id": {"$oid": "681f89bd8581c7282ae0c1b6"},
+            "brand": "RayBan Aviator",
+            "frame": {
+              "type": "metallic",
+              "color": "black"
+            },
+            "lens": {
+              "graduation": {
+                "left": -2.0,
+                "right": -1.5
+              },
+              "colors": ["blue", "green"]
+            },
+            "price": 120.50,
+            "supplier": {
+              "_id": {"$oid": "681f87938581c7282ae0c1b5"},
+              "name": "Óptica Visión",
+              "NIF": "B12345678",
+              "contact": {
+                "telephone": "934567890",
+                "fax": "934567891"
+              }
+            }
+          }
+        },
+        {  
+          "_id": {"$oid": "681fcd118581c7282ae0c1b5"},
+          "sale_date": {"$date": "2025-04-10T15:30:00.000Z"},
+          "quantity": 1,
+          "total_price": 99.99,
+          "employee": {
+            "name": "Joan Marx",
+            "email": "joan@tienda.com",
+            "role": "seller"
+          },
+          "glasses": {
+            "_id": {"$oid": "681f89bd8581c7282ae0c826"},
+            "brand": "RayBan Conductor",
+            "frame": {
+              "type": "paste",
+              "color": "green"
+            },
+            "lens": {
+              "graduation": {
+                "left": -2.5,
+                "right": -0.5
+              },
+              "colors": ["blue", "green"]
+            },
+            "price": 99.99,
+            "supplier": {
+              "_id": {"$oid": "681f87938581c7282ae0c1b5"},
+              "name": "Óptica Visión",
+              "NIF": "B12345678",
+              "contact": {
+                "telephone": "934567890",
+                "fax": "934567891"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

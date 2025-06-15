@@ -1,9 +1,18 @@
 {
   "_id": { "$oid": "611b63b4a0a15fdeb46fb960" },
-  "user_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+ "owner": { 
+               "_id": { "$oid": "5f8d8c7b5e6b2a30c745f3a8" },
+               "username": "piratinyo32",
+               "avatar": "user_thumbnail.jpg" 
+  },
   "name": "Real Haiti",
   "description": "Real life of the people of Haiti.",
   "creation_date": { "$date": "2017-08-01T00:00:00Z" },
-  "subscribers_count": 1,
-  "videos": [{ "$oid": "611b635450a65fdeb46fb969" }]
+  "subscribers": 1,
+  "videos": [{
+      "_id": {"$oid":"611b635450a65fdeb46fb969"},
+      "title": "Super barbecue", 
+      "thumbnail": "thumbnail1.png", 
+      "published_at": {"$date":"2022-05-10T00:00:00Z"}
+    }]
 }

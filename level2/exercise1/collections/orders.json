@@ -1,54 +1,118 @@
 {
-  "_id": { "$oid": "611b635450a65fdeb46fb969" },
-  "customer_id": { "$oid": "5f8d8c7b5e6b2a30c665f3a8" },
-  "store_id": { "$oid": "5f8d8c7b5e6b2a30c665f3a9" },
-  "date_time": { "$date": "2025-05-07T13:45:00Z" },
-  "service_type": "delivery",
-  "delivery_details": {
-    "address": {
-      "street": "Los Alamos",
-      "number": 32,
-      "postal_code": "43002"
+    "_id":{
+        "$oid": "611b635451a65fdeb46fb965"
     },
-    "employee_id": { "$oid": "5f8d8c7b5e6b2a30c665f3b0" }
-  },
-  "items": [
-    {
-      "product_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c1" },
-      "quantity": 1,
-      "variation": "Thin dough",
-      "price": 8
+    "date-time":{
+        "$date": "2025-05-07T13:45:00Z"
     },
-    {
-      "product_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c2" },
-      "quantity": 2,
-      "variation": "Normal dough",
-      "price": 12.0
+    "store_id": { "$oid": "5f8d8c7b5e6b2a30c665f3a9"
+    }, 
+             "address": {
+             "street": "Calle Comercio",
+             "number": 45,
+             "floor": "Bajo",
+             "door": "A",
+             "postal_code": "43002",
+             "locality": "Barcelona",
+             "province": "Barcelona"
+  
     },
-    {
-      "product_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c3" },
-      "quantity": 2,
-      "price": 6
+    "service_type": "delivery",
+             "delivery_details": {
+                    "_id": { "$oid": "5f8d8c7b5e6b2a30c665f3a8" },
+                           "name": "Peter",
+                           "last_name": "Normal",
+             "address": {
+                    "street": "Los Alamos",
+                    "number": 32,
+                    "floor": "",
+                    "door": "",
+                    "postal_code": "43002",
+                    "locality": "Lomas del Mirador",
+                        "province": "Barcelona"},
+             "telephone": "654123456"
     },
-    {
-      "product_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c4" },
-      "quantity": 1,
-      "price": 8
+    "employee":{
+              "_id": { "$oid": "5f8d8c7b5e6b2a30c665f3b0" },
+                     "name": "Charly",
+                    "last_name": "Brown",
+                    "NIF": "23456790Z",
+                  "telephone": "789123456",
+                  "role": "delivery"
     },
-    {
-      "product_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c5" },
-      "quantity": 2,
-      "price": 2
-    },
-    {
-      "product_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c6" },
-      "quantity": 2,
-      "price": 2.5
-    }
+    
+                "items": [
+                {    
+                        "_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c1" },
+                                "name": "Margherita Pizza",
+                                "description": "Classic tomato and mozzarella",
+                                "image_url": null,
+                                "type": "pizza",
+                                "category": {
+                                            "name": "Margarita",
+                                            "dough_types": ["Thin", "Normal"]
+                                            },
+                                "quantity": 1,
+                                "price": 8
+                            },
+                {
+                        "_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c2" },
+                                "name": "BBQ Pizza",
+                                "description": "Classic bbq and mozzarella, bacon, onion",
+                                "image_url": null,
+                                "type": "pizza",
+                                "category": {
+                                           "name": "BBQ",
+                                           "dough_types": ["Normal", "Thick"]
+                                           },
+                                "quantity": 2,
+                                "price": 12.0
+                            },    
+                {
+                        "_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c3" },
+                                "name": "Cheese Hamburger",
+                                "description": "Classic cheese",
+                                "image_url": null,
+                                "type": "hamburger",
+                                "quantity": 2,
+                                "price": 6
+                            },
+                {
+                        "_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c4" },
+                                "name": "Double Hamburger",
+                                "description": "Classic double meat",
+                                "image_url": null,
+                                "type": "hamburger",
+                                "quantity": 1,
+                                "price": 8
+                            },
+                {
+                        "_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c5" },
+                                "name": "Water",
+                                "description": "Natural water",
+                                "image_url": null,
+                                "type": "drink",
+                                "quantity": 2,
+                                "price": 2
+                            },
+                {
+                        "_id": { "$oid": "665f3a8c7d4e3f5e6b2a30c6" },
+                                "name": "Coke",
+                                "description": "Classic coke",
+                                "image_url": null,
+                                "type": "drink",
+                                "quantity": 2,
+                                 "price": 2.5
+                            }
   ],
-  "total_quantity": 10,
-  "total_price": 61,
-  "additional_information": "We don't have elevator!",
-  "status": "delivered",
-  "delivery_time": { "$date": "2025-08-07T15:00:00Z" }
+   "total_quantity": 10,
+   "total_price": 61,
+   "additional_information": "We don't have elevator!",
+   "status": "delivered",
+   "delivery_time": { "$date": "2025-08-07T15:00:00Z" }
 }
+  
+  
+  
+
+
