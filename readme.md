@@ -19,7 +19,7 @@ This repository contains MongoDB database structures for three different scenari
 
 - **MongoDB** - NoSQL database
 - **MongoDB Compass** - GUI for MongoDB
-- **Draw.io** - Database diagramming tool
+- **ToDiagram** - Diagramming tool
 - **JSON** - Data interchange format
 
 ## 📋 Requirements
@@ -87,7 +87,7 @@ This project is open-source and available under the MIT License.
 
 
 Key changes made:
-1. Replaced `.drawio` references with your actual PNG files
+1. Replaced `.ToDiagram` references with your actual PNG files
 2. Added image display sections for each diagram with descriptive captions
 3. Maintained single-file format as requested
 4. Kept all original functionality and structure
